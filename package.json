@@ -1,0 +1,24 @@
+{
+  "name": "playwright_test_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "regression":"npx playwright test",
+    "webTests": "npx playwright test --grep @Web",
+    "APITests": "npx playwright test --grep @API",
+    "ClientAppPom": "npx playwright test PomClientApp.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "allure-playwright": "^3.10.0"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
