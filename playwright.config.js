@@ -23,7 +23,7 @@ const config = ({
 
   use: {
     browserName : 'chromium', // Run in the Chrome
-    headless : false,
+    // headless : false,
     screenshot : 'only-on-failureb', // Screenshot where it failed
     trace : 'on' // Detailed report for all the test cases with screenshot
     
